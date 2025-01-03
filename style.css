@@ -93,7 +93,6 @@ ul {
   padding-top: 30px;
   transition: all 0.2s ease;
   z-index: 3;
-  right: 20px;
 }
 
 ul::after {
@@ -633,4 +632,7 @@ footer span {
   body {
     overflow-x: hidden !important;
   }
+
+  ul {
+      right: 20px;
 }
