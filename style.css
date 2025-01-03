@@ -569,6 +569,10 @@ footer span {
     padding-left: 70px !important;
     padding-right: 70px !important;
   }
+  .container-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   .services-box {
     flex-wrap: wrap;
@@ -584,15 +588,48 @@ footer span {
     padding: 10px 0px;
   }
 
-  .special-heading-1:not(.cancel) {
+  /* .special-heading-1:not(.cancel) {
     text-indent: -40px;
   }
 
   .contact .special-heading-1 {
     text-indent: -30px;
+  } */
+
+  .special-heading-1 {
+    font-size: 40px;
+  }
+  .special-heading-2 {
+    font-size: 12px;
+  }
+
+  .contact-text,
+  .mail-link {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+
+  .contact .container-1 {
+    margin-inline: 0px;
+  }
+
+  .portfolio-image img {
+    max-width: 220px;
   }
 
   nav {
-    padding: 20px 60px;
+    padding: 20px 30px;
+  }
+
+  .heading {
+    font-size: 35px;
+  }
+
+  .box .text {
+    font-size: 16px;
+  }
+
+  body {
+    overflow-x: hidden !important;
   }
 }
